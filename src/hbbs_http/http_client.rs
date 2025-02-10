@@ -61,7 +61,7 @@ macro_rules! configure_http_client {
         client
     }};
 }
-
+//   برای  اضافه کردن
 pub fn create_http_client() -> SyncClient {
     let builder = SyncClient::builder();
     configure_http_client!(builder, SyncClient)
