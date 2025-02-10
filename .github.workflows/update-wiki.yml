@@ -25,5 +25,5 @@ jobs:
         uses: devops-infra/action-push-to-wiki@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # توکن دسترسی به GitHub
-          wiki_repo: "your-username/your-repository/wiki"  # جایگزین با اطلاعات مخزن Wiki شما
+          wiki_repo: samantrader/rustdesk/wiki"  # جایگزین با اطلاعات مخزن Wiki شما
           file_path: "comments.md"  # فایل Markdown که کامنت‌ها در آن ذخیره شده‌اند
